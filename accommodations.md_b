@@ -1,0 +1,570 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="WiOpt 2021">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WiOpt 2021 | Accommodations</title>
+
+    <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+    <!-- <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' /> -->
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WiOpt 2021" />
+    <meta property="og:url" content="http://localhost:4000" />
+    <meta property="og:site_name" content="WiOpt 2021"/>
+    <meta property="og:description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/main-1e6c5491e93afd5d88be837ea0ea31ca6d9a6f696a41cf48fda38f589df13a47.css">
+  </head>
+
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="wrapper">
+
+      <!-- dim page when mobile navigation is shown -->
+      <div class="overlay"></div>
+
+      <!-- MOBILE NAVIGATION BUTTON -->
+
+
+      <div class="container" id="page-content-wrapper">
+        <!-- NAVIGATION -->
+<nav class="navbar navbar-default navbar-static-top">
+  <div style="margin-left: 10px;">
+    <a href="./index.html" class="navbar-left">
+      <img style="width:auto;height:45px" src="/assets/icon3-52f21321c339dde6d0a473dd88efb58e41657e4b0291bb60fe9f902b2ea05e96.png">
+      <!-- <img style="width:75px;height:50px;" src="/assets/icon-c971cd8817de5eef2616a7d7f76fe91150eccdb515faee9056ed636182b6576f.png"> -->
+    </a>
+  </div>
+    <!-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
+    <ul class="nav navbar-nav" style="margin-left: 15px;">
+      
+      
+      <li class="dropdown">
+        
+        <a href="./index.html" ><font size="4">HOME</font></a>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">AUTHORS</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./cfp.html">Call For Papers</a></li>
+          
+          
+          <li><a href="./ifa.html">Information For Authors</a></li>
+          
+          
+          <li><a href="./avui.html">Author Video Upload Instructions</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">WORKSHOPS</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./workshop-ccdwn.html">CCDWN</a></li>
+          
+          
+          <li><a href="./workshop-ReStoq.html">ReStoq</a></li>
+          
+          
+          <li><a href="./workshop-wmlc.html">WMLC</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">PROGRAM</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./keynotes.html">Keynotes</a></li>
+          
+          
+          <li><a href="./awards.html">Awards</a></li>
+          
+          
+          <li><a href="./accepted-papers.html">Accepted Papers</a></li>
+          
+          
+          <li><a href="./technical-program.html">Technical Program</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">COMMITTEES</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./org-committee.html">Organizing Committee</a></li>
+          
+          
+          <li><a href="./tpc.html">Technical Committee</a></li>
+          
+          
+          <li><a href="./sc.html">Steering Committee</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a href="./registration.html" ><font size="4">REGISTRATION</font></a>
+        
+      </li>
+      
+    </ul>
+</nav>
+
+
+<!-- <aside id="nav">
+  <nav>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading1"
+                             
+               onclick="window.location = '/index.html'"
+               
+          >
+            <h4 class="panel-title">HOME</h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading1">
+            <div class="list-group">
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading2"
+               
+               onclick="$('#collapse2').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">AUTHORS</h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading2">
+            <div class="list-group">
+              
+                
+                <a href="/cfp.html" class="list-group-item ">Call For Papers</a>
+              
+                
+                <a href="/ifa.html" class="list-group-item ">Information For Authors</a>
+              
+                
+                <a href="/avui.html" class="list-group-item ">Author Video Upload Instructions</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading3"
+               
+               onclick="$('#collapse3').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">WORKSHOPS</h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading3">
+            <div class="list-group">
+              
+                
+                <a href="/workshop-ccdwn.html" class="list-group-item ">CCDWN</a>
+              
+                
+                <a href="/workshop-ReStoq.html" class="list-group-item ">ReStoq</a>
+              
+                
+                <a href="/workshop-wmlc.html" class="list-group-item ">WMLC</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading4"
+               
+               onclick="$('#collapse4').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">PROGRAM</h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading4">
+            <div class="list-group">
+              
+                
+                <a href="/keynotes.html" class="list-group-item ">Keynotes</a>
+              
+                
+                <a href="/awards.html" class="list-group-item ">Awards</a>
+              
+                
+                <a href="/accepted-papers.html" class="list-group-item ">Accepted Papers</a>
+              
+                
+                <a href="/technical-program.html" class="list-group-item ">Technical Program</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading5"
+               
+               onclick="$('#collapse5').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">COMMITTEES</h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading5">
+            <div class="list-group">
+              
+                
+                <a href="/org-committee.html" class="list-group-item ">Organizing Committee</a>
+              
+                
+                <a href="/tpc.html" class="list-group-item ">Technical Committee</a>
+              
+                
+                <a href="/sc.html" class="list-group-item ">Steering Committee</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading6"
+                             
+               onclick="window.location = '/registration.html'"
+               
+          >
+            <h4 class="panel-title">REGISTRATION</h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading6">
+            <div class="list-group">
+              
+            </div>
+          </div>
+        </div>
+      
+  </nav>
+</aside> -->
+
+
+        <!-- <div class="row visible-xs" id="mobile-spacer">
+          <span class="glyphicon glyphicon-menu-left"></span> Navigation
+        </div> -->
+        <!-- JUMBOTRON -->
+        <div class="row">
+          <header id="banner" class="col-xs-12 col-sm-12 col-lg-12">
+            <img class="img-rounded img-responsive" alt="WiOpt 2021 Banner" src="/assets/bg-70318ae4fb9baebd1008a67fe97572ed67143e6f1706247aa3b4b9af0552aabc.png">
+          </header>
+        </div>
+
+        <div class="row">
+
+          <!-- CONTENT -->
+          <div class="col-xs-12 col-sm-12 col-lg-12">
+            # Accommodations
+Under construction.
+
+<!--
+If you are looking for a hotel to stay during ACM MobiHoc 2019, you might want to consider the following hotels which are located in or close to the conference venue:
+
+**Please keep in mind that the listed prices are subject to change daily and/or seasonally**
+
+
+
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <a data-toggle="collapse" data-target="#fourpoints" href="#fourpoints">
+        Marriott Four Points by Sheraton Catania Hotel and Conference Center
+        <span class="pull-right clickable "><i class="glyphicon glyphicon-chevron-up"></i></span>
+      </a>
+    </h3>
+  </div>
+  <div id="fourpoints" class="panel-body collapse in">
+    
+      <img alt="Marriott Four Points by Sheraton Catania Hotel and Conference Center" width="150px" style="position: absolute; right: 30px" src="/assets/fourpoints-31d252a27ccc70aff9fb05abe64e7a49a08e46a9105cceab7ff0376f8241205e.png">
+    
+    <p>Via Antonello da Messina 45, Aci Castello, Catania, 95021, Italy<br/>
+      
+        <a target="_blank" href="https://www.marriott.com/hotels/travel/ctasi-four-points-catania-hotel-and-conference-center/">Hotel Website</a>
+      
+    </p>
+
+    <table class="hotel">
+      
+      
+      
+      <tr>
+        <th>Reservations by phone:</th>
+        <td>+39 095 7114111 | fax. +39 095 271 380</td>
+      </tr>
+      <tr>
+        <th>Amenities:</th>
+        <td><ul><li>Conference Hotel</li><li>Free WiFi</li></ul></td>
+      </tr>
+      <tr>
+        <th>Rates:</th>
+        <td>€113 (double single) / €133 (double/twin)<br/></td>
+      </tr>
+    </table>
+
+    
+
+    
+      <p class="text-center">
+        <a href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=MobiHoc%20Conference%202019%5Ectasi%60ct1ct1a%7Cct1ct1b%60113%60EUR%60true%602%606/30/19%607/8/19%606/29/19&app=resvlink&stop_mobi=yes" class="btn btn-primary" role="button"><i class="fa fa-hotel"></i>&nbsp;&nbsp;&nbsp;Online Reservation&nbsp;&nbsp;&nbsp;</a>
+      </p>
+    
+
+        
+
+
+    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.545421118681!2d15.134358315416778!3d37.542211679802485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313fb79d73a3ec9%3A0x47b27df5bd303097!2sFour+Points+by+Sheraton+Catania+Hotel+%26+Conference+Center!5e0!3m2!1sen!2sus!4v1538685222875" width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="fourpoints"></iframe>
+    
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <a data-toggle="collapse" data-target="#Acicastello" href="#Acicastello">
+        Grand Hotel Baia Verde, Acicastello
+        <span class="pull-right clickable "><i class="glyphicon glyphicon-chevron-up"></i></span>
+      </a>
+    </h3>
+  </div>
+  <div id="Acicastello" class="panel-body collapse in">
+    
+      <img alt="Grand Hotel Baia Verde, Acicastello" width="150px" style="position: absolute; right: 30px" src="/assets/grand-hotel-baia-verde-9ac6c1c483ad952d067bdedf8f2b2f5fcf35c1736c7f5aee89c92d1f6813be74.jpg">
+    
+    <p>Via Angelo Musco, 8/10, Aci Castello, Catania, 95021, Italy<br/>
+      
+        <a target="_blank" href="https://www.baiaverde.it/en/">Hotel Website</a>
+      
+    </p>
+
+    <table class="hotel">
+      
+      
+      
+      <tr>
+        <th>Reservations by phone:</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Amenities:</th>
+        <td><ul><li>Free Wifi</li><li>Free Parking</li></ul></td>
+      </tr>
+      <tr>
+        <th>Rates:</th>
+        <td>€111+<br/></td>
+      </tr>
+    </table>
+
+    
+      A limited number of rooms are currently available at Grand Hotel Baia Verde from July 1st (checkin) to July 5 (checkout date). The cost is 114 euros per night for single rooms and 144 euros per night for double rooms, both prices include breakfast. Please email the Baia Verde hotel at  <a href="mailto:meeting@baiaverde.it">meeting@baiaverde.it</a> at the attention of Mrs. Maione, referring to the conference ACM MobiHoc 2019 for booking a room.
+    
+
+    
+
+        
+
+
+    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1581.7967858874256!2d15.133151858215141!3d37.54107689495072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x1313fb7bdfc29aa7%3A0x89f1c059904c2aab!2sGrand+Hotel+Baia+Verde%2C+Via+Angelo+Musco%2C+Aci+Castello%2C+Province+of+Catania%2C+Italy!3m2!1d37.5399421!2d15.132444699999999!4m5!1s0x1313fb79d73a3ec9%3A0x47b27df5bd303097!2sFour+Points+by+Sheraton+Catania+Hotel+%26+Conference+Center%2C+Via+Antonello+da+Messina+45+Aci+Castello%2C+95021+Catania+CT%2C+Italy!3m2!1d37.542211699999996!2d15.136547!5e0!3m2!1sen!2sus!4v1538690420866" width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="Acicastello"></iframe>
+    
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <a data-toggle="collapse" data-target="#zeus" href="#zeus">
+        Zeus Residence Hotel
+        <span class="pull-right clickable "><i class="glyphicon glyphicon-chevron-up"></i></span>
+      </a>
+    </h3>
+  </div>
+  <div id="zeus" class="panel-body collapse in">
+    
+      <img alt="Zeus Residence Hotel" width="150px" style="position: absolute; right: 30px" src="/assets/zeus-44b9d6bc64b0db83f8eab52dbd9006889c1419c5bb7c8a30ee8e8f44a8093b42.jpg">
+    
+    <p>Via Antonello da Messina, 8, Aci Castello, Catania, 95021, Italy<br/>
+      
+        <a target="_blank" href="http://zeusresidencehotel.it/en/">Hotel Website</a>
+      
+    </p>
+
+    <table class="hotel">
+      
+      
+      
+      <tr>
+        <th>Reservations by phone:</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Amenities:</th>
+        <td><ul><li>Free Wifi</li><li>Free Parking</li></ul></td>
+      </tr>
+      <tr>
+        <th>Rates:</th>
+        <td>€75 (single, double, or twin)/ €90 (triple room, 1 double bed + 1 bed, up to 4)<br/></td>
+      </tr>
+    </table>
+
+    
+      Single, Double or Twin Room: 75 euros per night per room. Triple Room (1 double bed+1 bed): 90 euros per night per room up to 4. Occupants with additional bed at 15 euros per night per room. Local taxes not included. Interested attendees who want to book a room can contact the hotel by email at <a href="mailto:info@zeusresidencehotel.it">info@zeusresidencehotel.it</a> mentioning the ACM MobiHoc 2019 conference reservation.
+    
+
+    
+
+        
+
+
+    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1581.7863488683083!2d15.13421735818301!3d37.54156884495066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x1313fb797a9d8973%3A0xc879b8c8cc771e24!2sZeus+Residence+Hotel%2C+Via+Antonello+da+Messina%2C+Aci+Castello%2C+Province+of+Catania%2C+Italy!3m2!1d37.540926!2d15.1341415!4m5!1s0x1313fb79d73a3ec9%3A0x47b27df5bd303097!2sFour+Points+by+Sheraton+Catania+Hotel+%26+Conference+Center%2C+Via+Antonello+da+Messina+45+Aci+Castello%2C+95021+Catania+CT%2C+Italy!3m2!1d37.542211699999996!2d15.136547!5e0!3m2!1sen!2sus!4v1538690708266" width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="zeus"></iframe>
+    
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <a data-toggle="collapse" data-target="#4spa" href="#4spa">
+        4SPA Resort Hotel
+        <span class="pull-right clickable "><i class="glyphicon glyphicon-chevron-up"></i></span>
+      </a>
+    </h3>
+  </div>
+  <div id="4spa" class="panel-body collapse in">
+    
+      <img alt="4SPA Resort Hotel" width="150px" style="position: absolute; right: 30px" src="/assets/4spa-83af54396a235340b81c6a753b30d6a4daf01db1222b55f356e14f3ddaa1dd6b.jpg">
+    
+    <p>Via Nazionale, 114, 95021 Aci Castello CT, Italy<br/>
+      
+        <a target="_blank" href="http://zwww.4spa.it">Hotel Website</a>
+      
+    </p>
+
+    <table class="hotel">
+      
+      
+      
+      <tr>
+        <th>Reservations by phone:</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Amenities:</th>
+        <td><ul><li>Free Wifi</li><li>Free Parking</li></ul></td>
+      </tr>
+      <tr>
+        <th>Rates:</th>
+        <td>€85/90 (single, superior/executive room)/ €100/105 (double/twin)<br/></td>
+      </tr>
+    </table>
+
+    
+      A limited number of rooms are currently available at 4SPA Resort Hotel http://www.4spa.it from July 1st (checkin) to July 6 (checkout date). The cost is 85/90 euros per night (superior or executive room) for single rooms and 100/105 euros per night for double/twin rooms, both prices include breakfast. Please email the 4SPA Resort  hotel at  <a href="mailto:booking@4spa.it">booking@4spa.it</a> at the attention of Mrs. Di Mauro, referring to the conference ACM MobiHoc 2019 for booking a room.
+    
+
+    
+
+        
+
+
+    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d12654.47176198905!2d15.121433785651126!3d37.54050257684256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x1313fb79d73a3ec9%3A0x47b27df5bd303097!2sFour+Points+by+Sheraton+Catania+Hotel+%26+Conference+Center%2C+Via+Antonello+da+Messina+45+Aci+Castello%2C+95021+Catania+CT%2C+Italy!3m2!1d37.542211699999996!2d15.136547!4m5!1s0x1313fc82f23ce179%3A0x38bd829d134f4723!2sVia+Nazionale%2C+114%2C+95021+Catania+CT%2C+Italy!3m2!1d37.538762299999995!2d15.1240682!5e0!3m2!1sen!2sus!4v1554765161541!5m2!1sen!2sus" width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="4spa"></iframe>
+    
+
+  </div>
+</div>
+
+</div>-->
+
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row">
+          <div class="footer">
+            <div class="col-sm-offset-3 col-md-8 col-md-offset-3">
+		<p>© Copyright 2020-2021 Jinbei Zhang, Creative Commons License </p>
+              <!--<p>© Copyright 2019-2020 Jinbei Zhang, Creative Commons License, <a href="https://github.com/conference-websites/MobiHoc-2019" target="_blank">Source </p>-->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <span id="top-link-block" class="hidden">
+      <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+      </a>
+    </span> -->
+
+    <script src="/assets/main-0d930445f6241cc94e6894c82ad098a30597ff637b9f0c12bf54a3e307180266.js" type="text/javascript"></script>
+    <script>
+      $(document).ready(function(){
+        dropdownOpen();//调用
+    });
+    /**
+     * 鼠标划过就展开子菜单，免得需要点击才能展开
+     */
+    function dropdownOpen() {
+     
+        var $dropdownLi = $('li.dropdown');
+     
+        $dropdownLi.mouseover(function() {
+            $(this).addClass('open');
+        }).mouseout(function() {
+            $(this).removeClass('open');
+        });
+    }
+  </script>  
+  </body>
+</html>

@@ -1,0 +1,791 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="WiOpt 2021">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WiOpt 2021 | Technical Committee</title>
+
+    <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+    <!-- <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' /> -->
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WiOpt 2021" />
+    <meta property="og:url" content="http://localhost:4000" />
+    <meta property="og:site_name" content="WiOpt 2021"/>
+    <meta property="og:description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/main-1e6c5491e93afd5d88be837ea0ea31ca6d9a6f696a41cf48fda38f589df13a47.css">
+  </head>
+
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="wrapper">
+
+      <!-- dim page when mobile navigation is shown -->
+      <div class="overlay"></div>
+
+      <!-- MOBILE NAVIGATION BUTTON -->
+
+
+      <div class="container" id="page-content-wrapper">
+        <!-- NAVIGATION -->
+<nav class="navbar navbar-default navbar-static-top">
+  <div style="margin-left: 10px;">
+    <a href="./index.html" class="navbar-left">
+      <img style="width:auto;height:45px" src="/assets/icon3-52f21321c339dde6d0a473dd88efb58e41657e4b0291bb60fe9f902b2ea05e96.png">
+      <!-- <img style="width:75px;height:50px;" src="/assets/icon-c971cd8817de5eef2616a7d7f76fe91150eccdb515faee9056ed636182b6576f.png"> -->
+    </a>
+  </div>
+    <!-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
+    <ul class="nav navbar-nav" style="margin-left: 15px;">
+      
+      
+      <li class="dropdown">
+        
+        <a href="./index.html" ><font size="4">HOME</font></a>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">AUTHORS</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./cfp.html">Call For Papers</a></li>
+          
+          
+          <li><a href="./ifa.html">Information For Authors</a></li>
+          
+          
+          <li><a href="./avui.html">Author Video Upload Instructions</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">WORKSHOPS</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./workshop-ccdwn.html">CCDWN</a></li>
+          
+          
+          <li><a href="./workshop-ReStoq.html">ReStoq</a></li>
+          
+          
+          <li><a href="./workshop-wmlc.html">WMLC</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">PROGRAM</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./keynotes.html">Keynotes</a></li>
+          
+          
+          <li><a href="./awards.html">Awards</a></li>
+          
+          
+          <li><a href="./accepted-papers.html">Accepted Papers</a></li>
+          
+          
+          <li><a href="./technical-program.html">Technical Program</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a class="dropdown-toggle" data-toggle="dropdown" ><font size="4">COMMITTEES</font></a>
+        <ul class="dropdown-menu">
+          
+          
+          <li><a href="./org-committee.html">Organizing Committee</a></li>
+          
+          
+          <li><a href="./tpc.html">Technical Committee</a></li>
+          
+          
+          <li><a href="./sc.html">Steering Committee</a></li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      <li class="dropdown">
+        
+        <a href="./registration.html" ><font size="4">REGISTRATION</font></a>
+        
+      </li>
+      
+    </ul>
+</nav>
+
+
+<!-- <aside id="nav">
+  <nav>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading1"
+                             
+               onclick="window.location = '/index.html'"
+               
+          >
+            <h4 class="panel-title">HOME</h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading1">
+            <div class="list-group">
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading2"
+               
+               onclick="$('#collapse2').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">AUTHORS</h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading2">
+            <div class="list-group">
+              
+                
+                <a href="/cfp.html" class="list-group-item ">Call For Papers</a>
+              
+                
+                <a href="/ifa.html" class="list-group-item ">Information For Authors</a>
+              
+                
+                <a href="/avui.html" class="list-group-item ">Author Video Upload Instructions</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading3"
+               
+               onclick="$('#collapse3').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">WORKSHOPS</h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading3">
+            <div class="list-group">
+              
+                
+                <a href="/workshop-ccdwn.html" class="list-group-item ">CCDWN</a>
+              
+                
+                <a href="/workshop-ReStoq.html" class="list-group-item ">ReStoq</a>
+              
+                
+                <a href="/workshop-wmlc.html" class="list-group-item ">WMLC</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading4"
+               
+               onclick="$('#collapse4').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">PROGRAM</h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading4">
+            <div class="list-group">
+              
+                
+                <a href="/keynotes.html" class="list-group-item ">Keynotes</a>
+              
+                
+                <a href="/awards.html" class="list-group-item ">Awards</a>
+              
+                
+                <a href="/accepted-papers.html" class="list-group-item ">Accepted Papers</a>
+              
+                
+                <a href="/technical-program.html" class="list-group-item ">Technical Program</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-primary col-lg-2">
+          <div class="panel-heading" role="tab" id="heading5"
+               
+               onclick="$('#collapse5').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">COMMITTEES</h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
+            <div class="list-group">
+              
+                
+                <a href="/org-committee.html" class="list-group-item ">Organizing Committee</a>
+              
+                
+                <a href="/tpc.html" class="list-group-item current">Technical Committee</a>
+              
+                
+                <a href="/sc.html" class="list-group-item ">Steering Committee</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default col-lg-2">
+          <div class="panel-heading" role="tab" id="heading6"
+                             
+               onclick="window.location = '/registration.html'"
+               
+          >
+            <h4 class="panel-title">REGISTRATION</h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading6">
+            <div class="list-group">
+              
+            </div>
+          </div>
+        </div>
+      
+  </nav>
+</aside> -->
+
+
+        <!-- <div class="row visible-xs" id="mobile-spacer">
+          <span class="glyphicon glyphicon-menu-left"></span> Navigation
+        </div> -->
+        <!-- JUMBOTRON -->
+        <div class="row">
+          <header id="banner" class="col-xs-12 col-sm-12 col-lg-12">
+            <img class="img-rounded img-responsive" alt="WiOpt 2021 Banner" src="/assets/bg-70318ae4fb9baebd1008a67fe97572ed67143e6f1706247aa3b4b9af0552aabc.png">
+          </header>
+        </div>
+
+        <div class="row">
+
+          <!-- CONTENT -->
+          <div class="col-xs-12 col-sm-12 col-lg-12">
+            <h1 id="technical-committee">Technical Committee</h1>
+<p><br /></p>
+<div class="col-lg-8">
+<table class="table">
+<tbody>
+<tr>
+<td>Abhishek Sinha</td>
+<td> IIT Madras</td>
+<td>India</td>
+</tr>
+<tr>
+<td>Anthony Ephremides</td>
+<td>University of Maryland</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Anastasios Giovanidis</td>
+<td>Sorbonne University</td>
+<td>France</td>
+</tr>
+<tr>
+<td>Arnob Ghosh</td>
+<td>Imperial College of London</td>
+<td>UK</td>
+</tr>
+<tr>
+<td>Atilla Eryilmaz</td>
+<td>The Ohio State University</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Bin Li</td>
+<td>University of Rhode Island</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Bo Ji</td>
+<td>Virginia Tech</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Cathy Xia</td>
+<td>Ohio State University</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Changhee Joo</td>
+<td>Korea University</td>
+<td>Korea</td>
+</tr>
+<tr>
+<td>Chul-Ho Lee</td>
+<td>Florida Institute of Technology</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Cong Shen</td>
+<td>University of Virginia</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>David Malone</td>
+<td>Maynooth University</td>
+<td>Ireland</td>
+</tr>
+<tr>
+<td>David Starobinski</td>
+<td>Boston University</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Dileep Kalathil</td>
+<td> Texas A&amp;M University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Do Young Eun</td>
+<td>North Carolina State University</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Eirini Tsiropoulou</td>
+<td>University of New Mexico</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Eylem Ekici</td>
+<td>Ohio State University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Fabio Martignon</td>
+<td> University of Bergamo</td>
+<td> Italy</td>
+</tr>
+<tr>
+<td>Gagan Gupta</td>
+<td>IIT Bhilai</td>
+<td>India</td>
+</tr>
+<tr>
+<td>George Iosifidis</td>
+<td>Trinity College Dublin</td>
+<td>Ireland</td>
+</tr>
+<tr>
+<td>George Theodorakopoulos</td>
+<td>Cardiff University</td>
+<td>UK</td>
+</tr>
+<tr>
+<td>Haiming Jin</td>
+<td>Shanghai Jiao Tong University</td>
+<td> China</td>
+</tr>
+<tr>
+<td>Haiqin Wu</td>
+<td>University of Copenhagen</td>
+<td>Denmark</td>
+</tr>
+<tr>
+<td>Harpreet Dhillon</td>
+<td>Virginia Tech</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Huacheng Zeng</td>
+<td>Michigan State University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Igor Kadota</td>
+<td>Columbia University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>I-Hong Hou</td>
+<td>Texas A&amp;M University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Ing-Ray Chen</td>
+<td>Virginia Tech</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Iordanis Koutsopoulos</td>
+<td>Athens University of Economics and Business</td>
+<td> Greece</td>
+</tr>
+<tr>
+<td>Jayakrishnan Nair</td>
+<td>IIT Bombay</td>
+<td> India</td>
+</tr>
+<tr>
+<td>Jia Liu </td>
+<td>Ohio State University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Jian Li</td>
+<td>SUNY Binghamton</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Jiasi Chen </td>
+<td>University of California, Riverside</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Jocelyne Elias </td>
+<td>Paris Descartes University</td>
+<td>France</td>
+</tr>
+<tr>
+<td>John Tadrous</td>
+<td>Gonzaga University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Joohyun Lee</td>
+<td>Hanyang University</td>
+<td>Korea</td>
+</tr>
+<tr>
+<td>Konstantin Avrachenkov </td>
+<td>INRIA</td>
+<td>France</td>
+</tr>
+<tr>
+<td>Koushik Kar</td>
+<td>Rensselaer Polytechnic Institute</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Kyunghan Lee</td>
+<td>Seoul National University</td>
+<td>Korea</td>
+</tr>
+<tr>
+<td>Lei Yang </td>
+<td>University of Nevada</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Liang Xiao</td>
+<td>Xiamen University</td>
+<td> China</td>
+</tr>
+<tr>
+<td>Longbo Huang</td>
+<td>Tsinghua University</td>
+<td>China</td>
+</tr>
+<tr>
+<td>Marceau Coupechoux</td>
+<td>Telecom ParisTech</td>
+<td>France</td>
+</tr>
+<tr>
+<td>Mojtaba Vaezi</td>
+<td>Villanova University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Morteza Hashemi</td>
+<td>University of Kansas</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Naoto Miyoshi </td>
+<td>Tokyo Institute of Technology</td>
+<td>Japan</td>
+</tr>
+<tr>
+<td>Nikolaos Pappas</td>
+<td>Linköping University</td>
+<td>Sweden</td>
+</tr>
+<tr>
+<td>Onur Kaya</td>
+<td>Isik University</td>
+<td>Turkey</td>
+</tr>
+<tr>
+<td>Osman Yagan </td>
+<td>CMU</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Parinaz Naghizadeh</td>
+<td>Purdue University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Qian Ma</td>
+<td>Sun Yat-Sen University</td>
+<td> China</td>
+</tr>
+<tr>
+<td>Quanyan Zhu </td>
+<td>New York University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Rahul Singh</td>
+<td>Indian Institute of Science Bangalore</td>
+<td>India</td>
+</tr>
+<tr>
+<td>Rahul Vaze</td>
+<td>TIFR Mumbai</td>
+<td>  India</td>
+</tr>
+<tr>
+<td>Rajesh Sundaresan </td>
+<td>Indian Institute of Science</td>
+<td> India</td>
+</tr>
+<tr>
+<td>Randall Berry </td>
+<td>Northwestern University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Reuven Cohen </td>
+<td>Technion</td>
+<td> Israel</td>
+</tr>
+<tr>
+<td>Richard Combes </td>
+<td>CNRS-Supelec</td>
+<td> France</td>
+</tr>
+<tr>
+<td>Sem Borst </td>
+<td>Eindhoven University of Technology</td>
+<td> The Netherlands</td>
+</tr>
+<tr>
+<td>Semih Cayci </td>
+<td>University of Illinois at Urbana-Champaign</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Sennur Ulukus </td>
+<td>University of Maryland</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Setareh Maghsudi </td>
+<td>Technical University of Berlin</td>
+<td> Germany</td>
+</tr>
+<tr>
+<td>Sharayu Moharir </td>
+<td>IIT Bombay</td>
+<td>India</td>
+</tr>
+<tr>
+<td>Shirin Saeedi Bidokhti</td>
+<td>University of Pennsylvania</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Siva Theja Maguluri</td>
+<td>Georgia Institute of Technology</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Srinivas Shakkottai </td>
+<td>Texas A&amp;M University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Steven Weber </td>
+<td>Drexel University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Stratis Ioannidis</td>
+<td>Northeastern University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Subhash Lakshminarayana </td>
+<td>University of Warwick</td>
+<td> UK</td>
+</tr>
+<tr>
+<td>Tamer Elbatt</td>
+<td>Americal University in Cairo</td>
+<td> Egypt</td>
+</tr>
+<tr>
+<td>Tansu Alpcan</td>
+<td>The University of Melbourne</td>
+<td>Australia</td>
+</tr>
+<tr>
+<td>Thinh Doan </td>
+<td>Georgia Institute of Technology</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Tingjun Chen</td>
+<td>Duke University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Vaneet Aggarwal</td>
+<td> Purdue University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Venkatesh Ramaiyan </td>
+<td>Indian Institute of Technology Madras</td>
+<td> India</td>
+</tr>
+<tr>
+<td>Vijay Subramanian </td>
+<td>University of Michigan</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Vinod Sharma </td>
+<td>Indian Institute of Science</td>
+<td>India</td>
+</tr>
+<tr>
+<td>Weina Wang</td>
+<td>CMU</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Xiaohan Kang</td>
+<td>University of Illinois at Urbana-Champaign</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Xiaowen Gong </td>
+<td>Auburn University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Xin Liu</td>
+<td>University of Michigan</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Xingyu Zhou</td>
+<td>Wayne State University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Yin Sun</td>
+<td>Auburn University</td>
+<td> USA</td>
+</tr>
+<tr>
+<td>Yoora Kim </td>
+<td>University of Ulsan</td>
+<td> Korea</td>
+</tr>
+<tr>
+<td>Zhixuan Fang</td>
+<td>Tsinghua University</td>
+<td> China</td>
+</tr>
+<tr>
+<td>Zizhan Zheng</td>
+<td>Tulane University</td>
+<td> USA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- <div id="committee">
+  
+</div>
+ -->
+
+<!-- <div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <a href="mailto:mobihoc19.tpcchairs@gmail.com" class="btn btn-primary btn-block" role="button">Contact TPC Chairs</a>
+  </div>
+</div> -->
+
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row">
+          <div class="footer">
+            <div class="col-sm-offset-3 col-md-8 col-md-offset-3">
+		<p>© Copyright 2020-2021 Jinbei Zhang, Creative Commons License </p>
+              <!--<p>© Copyright 2019-2020 Jinbei Zhang, Creative Commons License, <a href="https://github.com/conference-websites/MobiHoc-2019" target="_blank">Source </p>-->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <span id="top-link-block" class="hidden">
+      <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+      </a>
+    </span> -->
+
+    <script src="/assets/main-0d930445f6241cc94e6894c82ad098a30597ff637b9f0c12bf54a3e307180266.js" type="text/javascript"></script>
+    <script>
+      $(document).ready(function(){
+        dropdownOpen();//调用
+    });
+    /**
+     * 鼠标划过就展开子菜单，免得需要点击才能展开
+     */
+    function dropdownOpen() {
+     
+        var $dropdownLi = $('li.dropdown');
+     
+        $dropdownLi.mouseover(function() {
+            $(this).addClass('open');
+        }).mouseout(function() {
+            $(this).removeClass('open');
+        });
+    }
+  </script>  
+  </body>
+</html>
