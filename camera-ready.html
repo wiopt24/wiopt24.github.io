@@ -337,7 +337,68 @@
           <div class="col-xs-12 col-sm-12 col-lg-12">
             <h1 id="camera-ready-instructions">Camera-Ready Instructions</h1>
 
-<p>Due to an issue at publication, the submission of a camera-ready version is being delayed. Please proceed with the registration. We will email the authors for the submission instructions soon. Sorry for the inconvenience.</p>
+<h2 id="publication">Publication</h2>
+<p>WiOpt is technically co-sponsored by the IEEE Control Systems Society, IEEE Information Theory Society and IFIP. All accepted papers will be published in the IFIP DL open library with Open Access and will be also submitted for inclusion into IEEE Xplore.</p>
+
+<p><b>NOTE</b>: to be able to upload your camera ready PDF on EDAS you will need to perform the following steps:</p>
+
+<ol>
+  <li>Fill and upload the IFIP copyright form. See the instructions below;</li>
+  <li>After finalizing your PDF by addressing the comments of the reviewers, certify the PDF by uploading it on PDF eXpress (see the instructions below);</li>
+  <li>Register to the conference following the instructions at <a href="https://wiopt24.github.io/registration.html">this link</a>. <FONT COLOR="#ff0000">In the confirmation of payment you will find a registration code that needs to be copied in EDAS when uploading the camera ready (number part only of [N123456789], e.g., 12346789). The registration code appears under the field <b>Payment order number</b> in the payment receipt.</FONT></li>
+</ol>
+
+<h2 id="copyright-form">Copyright Form</h2>
+<p>A completed copyright form is required to guarantee publication and to upload the camera ready. The copyright form may be found at: <a href="http://www.ifip.org/images/stories/ifip/public/publications/dlcopyright.pdf">http://www.ifip.org/images/stories/ifip/public/publications/dlcopyright.pdf</a></p>
+
+<p>Please fill and sign the copyright form, and name a scanned copy as “copyright-[PAPER ID].pdf”. Upload the signed copyright form to EDAS before uploading your camera ready paper. Should you have problems, please contact the WiOpt 2024 Publication Chairs, Cong Shen (<a href="mailto:cong@virginia.edu">cong@virginia.edu</a>) and Xingyu Zhou (<a href="mailto:xingyu.zhou@wayne.edu">xingyu.zhou@wayne.edu</a>).</p>
+
+<h2 id="instructions-for-camera-ready-submission">Instructions for camera-ready submission</h2>
+<ul>
+  <li>The pdf files must be at most 8 pages long and have version 1.4 or higher. All fonts must be embedded, and the pdf should not contain bookmarks or links.</li>
+  <li>The following page sizes are allowed: letter, A4. Only fonts 10 pt and larger may be used. The paper must have 2 columns. The minimum line spacing is 11 pt. For letter-sized paper, the left and right margins must be at least 0.625 in. The top margin must be at least 0.7 in. The bottom margin must be at least 0.9 in. For A4 paper, the left and right margins must be at least 1.2 cm. The top margin must be at least 1.8 cm. The bottom margin must be at least 2.5 cm.</li>
+  <li>Check the compatibility of your pdf file using IEEE PDF eXpress. The website is <a href="https://ieee-pdf-express.org/account/login">https://ieee-pdf-express.org/account/login</a>. Click on “Create account” to create a new account, entering <FONT COLOR="#ff0000"><b>64696X</b></FONT> as conference ID. Enter your email address, choose a password, and click on “Submit” to create an account. Once you are logged in, follow the instructions to upload your camera ready paper. PDF eXpress will check your paper and will inform you about the outcome via email. If the paper is Xplore compliant, <b>upload the paper attached to the PDF eXpress email to EDAS as your camera ready version.</b></li>
+  <li>
+    <FONT COLOR="#ff0000">The strict submission deadline is 27th, September.</FONT>
+  </li>
+  <li>The abstract should be no more than 250 words.</li>
+  <li>Please use the <a href="https://www.ieee.org/conferences/publishing/templates.html#start">IEEE Templates for Conference Proceedings</a>.</li>
+</ul>
+
+<h2 id="instructions-for-registration">Instructions for registration</h2>
+<p>To guarantee publication of a WiOpt paper, a full registration is required for each paper, and the paper must be presented at the conference. A single registration is valid for up to two papers. Please visit <a href="https://wiopt24.github.io/registration.html">this link</a> to register for the conference and/or the workshops.</p>
+
+<h2 id="help-with-embedded-fonts">Help with embedded fonts</h2>
+<p>Sometimes the embedding of fonts can be an issue. Here are some points to overcome this problem.</p>
+
+<p>Times, Helvetica etc are used by usepackage{}: if you do not really need this, disable and run pdflatex. Otherwise, use the command ‘pdffonts yourfilename.pdf’ to identify if all the fonts are embedded. Ensure that the columns for ‘emb’ and ‘sub’ have only ‘yes’ in it. If not, either use adobe utilities, or try</p>
+
+<ol>
+  <li>
+    <FONT COLOR="#ff0000">pdftops filename.pdf</FONT>
+  </li>
+  <li>
+    <FONT COLOR="#ff0000">ps2pdf14 -dPDFSETTINGS=/prepress -dEmbedAllFonts=true filename.ps newfilename.pdf</FONT>
+  </li>
+</ol>
+
+<p>Now you can upload the file newfilename.pdf (please also check pdffonts to see ‘yes’). In maths, the bbm package usually is problematic. In such cases, a brute force replacement by some other compatible package or changing the notation will do the trick of eliminating type3 fonts. Use pdffonts to see any Type 3 fonts, such fonts will not pass the pdfeXpress check during the final submission.
+External images by includegraphics{} can create problems. A quick way to check is by using documentclass[draft,letter,conference,10pt] as preamble and run pdflatex. If the problem is the images, you can perform the step below.  One way is to embed the fonts in each image, by the following command</p>
+
+<ol>
+  <li>
+    <FONT COLOR="#ff0000">gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true</FONT>
+  </li>
+  <li>
+    <FONT COLOR="#ff0000">-sOutputFile=OUTPUT_FILE_NAME.pdf -f INPUT_FILE_NAME.pdf</FONT>
+  </li>
+</ol>
+
+<p>and then run <FONT COLOR="#ff0000">pdflatex yourfilename.tex</FONT>.</p>
+
+<!--
+Due to an issue at publication, the submission of a camera-ready version is being delayed. Please proceed with the registration. We will email the authors for the submission instructions soon. Sorry for the inconvenience.
+-->
 
 <!--
 In preparation. The instruction will be available shortly.
